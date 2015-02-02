@@ -77,7 +77,7 @@ body a{
 }
 .top-nav ul li.active a,
 .top-nav ul li a:hover{
-	color:#66120c;
+	color:#75AADB;
 }
 .logo a{
 	display:block;
@@ -178,6 +178,7 @@ nav a#pull {
 	}
 	nav a#pull img{
 		margin-right:2%;
+    width:32px;
 	}
 	.top-nav ul li a {
 		color: #2C3E50;
@@ -285,9 +286,9 @@ nav a#pull {
 	top: 0%;
 }
 .callbacks_nav {
-  	position: absolute;
+  position: absolute;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	top: 57%;
+	top: 50%;
 	left: 6%;
 	z-index: 3;
 	text-indent: -9999px;
@@ -296,7 +297,7 @@ nav a#pull {
 	height: 28px;
 	width: 28px;
 	background: transparent url("../images/slider-arrows.png") no-repeat left top;
-	margin-top: -65px;
+	margin-top: -45px;
 }
 .callbacks_nav:active {
   opacity: 1.0;
@@ -353,7 +354,7 @@ nav a#pull {
   float: left;
 }
 .rslides img {
-  height: auto;
+  height: 160px;
   border: 0;
 }
 .callbacks_tabs{
@@ -394,7 +395,7 @@ nav a#pull {
 	border:2px solid #F4BB36;
 }
 .slide-text-info h1{
-	font-size: 2em;
+  font-size: 3em;
 	font-weight: 900;
 	text-transform: uppercase;
 	padding: 0;
@@ -408,19 +409,21 @@ nav a#pull {
 	color: #FFF;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	display: block;
 }
 /*----*/
 .slide-btn{
   border:1px solid #fff;
   background: #transparent;
-	padding: 0.7em 3em;
-	margin-top: 1em;
+	padding: 0.5em 2.5em;
+	margin-top: .6em;
 	display: inline-block;
 	text-transform: uppercase;
 	color: #FFF;
-	font-size: 1em;
+	font-size: 2em;
+  width:100px;
+  text-align:center;
 }
 .slide-btn:hover{
 	color:#FFF;
@@ -428,7 +431,7 @@ nav a#pull {
 	background:#2E7DA1;
 }
 div.slide-text-info {
-	margin-top: 1.5em;
+	margin-top: .5em;
 	margin-left: 4em;
 }
 /*----//slider----*/
@@ -437,7 +440,7 @@ div.slide-text-info {
 	padding: 0.3em 0;
 }
 .header h2{
-	color: #66120c;
+	color: #75AADB;
 	font-size: 1.3em;
 	text-transform: uppercase;
 	font-weight: 400;
@@ -504,7 +507,7 @@ div.slide-text-info {
 
 /*--- services ---*/
 .services{
-	background:#66120c;
+	background:#75AADB;
 	padding: 1em 0;
 }
 .services-header{
@@ -561,7 +564,7 @@ div.slide-text-info {
 }
 .team-member-grid{
 	width:100%;
-	background:url(../images/top-grid-info-bg-b.png);
+	background:#75AADB;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -644,7 +647,7 @@ div.slide-text-info {
 	position: absolute;
 	width: 100%;
 	top: 0px;
-	background: #66120c;
+	background: #75AADB;
 	top: 5%;
 	padding: 1em 0;
 }
@@ -662,7 +665,7 @@ div.slide-text-info {
 	font-weight: 400;
 	font-size: 1em;
 	text-transform: uppercase;
-	border-bottom: 1px ridge #C4DDF8;
+	border-bottom: 1px ridge #75AADB;
 	width: 100%;
 	padding-bottom: 0.5em;
 	margin: 0.5em 0;
@@ -739,6 +742,7 @@ div.slide-text-info {
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 	-webkit-appearance:none;
+  margin-bottom:50px;
 }
 .contact-grid-right input[type="submit"]:hover{
 	background:#348DB6;
